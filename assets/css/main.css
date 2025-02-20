@@ -5,7 +5,19 @@ body{
     padding: 0;
 }
 
-p, ul, li {
+header{
+    display: flex;
+    justify-content: space-between;
+    color : #224422;
+}
+
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+p, ul, li, table {
     color: #FFFFFF;
 }
 
@@ -17,7 +29,25 @@ a{
     color:  #CCCCFF;
 }
 
+table {
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+}
+  
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px
+}
+
 footer{
     display: flex;
     justify-content: center
 }
+
