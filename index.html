@@ -12,8 +12,8 @@
         <h1>Avions de ligne</h1>
         <nav>
             <ul>
-                <li><a href="">Actualités</a></li>
-                <li><a href="">Avions (liste)</a></li>
+                <li><a href="#Actualites">Actualités</a></li>
+                <li><a href="#liste_Avions">Avions (liste)</a></li>
                 <li><a href="">Avions (cartes)</a></li>
                 <li><a href="https://airbus.com">Site d'AirBus</a></li>
                 <li><a href="https://boeing.fr">Site de Boeing</a></li>
@@ -22,7 +22,7 @@
     </header>
     <main>
         <section>
-            <h2>Actualités</h2>
+            <h2 id="Actualites">Actualités</h2>
             <h3>Vueling élimine 100% des matières plastiques du service de restauration à bord</h3>
             <p>
                 La compagnie aérienne a retiré plus de 5 millions de tasses, 1 million de touillettes à café et 200 000 couverts en plastique. Ces actions s'inscrivent dans le plan de développement durable de Vueling, et plus spécifiquement, dans son troisième pilier portant sur la gestion des déchets et la manière dont la compagnie collecte, transporte, traite et recycle les déchets.
@@ -38,18 +38,18 @@
                 Sélectionnés par l'agence spatiale européenne (ESA), Thales Alenia Space et l'italien Avio vont développer Space Rider, une petite navette spatiale dont le premier lancement aura lieu de Kourou en 2023. Celle-ci, non habitée, servira notamment de laboratoire de recherche en orbite.
             </p>
         </section>
-        <h2>Liste d’avions</h2>
+        <h2 id="#liste_Avions">Liste d’avions</h2>
         <table>
             <thead>
                 <tr>
-                  <th scope="col">id</th>
-                  <th scope="col">constructeur</th>
-                  <th scope="col">modele</th>
-                  <th scope="col">passagers</th>
-                  <th scope="col">fret</th>
-                  <th scope="col">autonomie</th>
-                  <th scope="col">vitesse_croissiere</th>
-                  <th scope="col">vitesse_max</th>
+                  <th>id</th>
+                  <th>constructeur</th>
+                  <th>modele</th>
+                  <th>passagers</th>
+                  <th>fret</th>
+                  <th>autonomie</th>
+                  <th>vitesse_croissiere</th>
+                  <th>vitesse_max</th>
                 </tr>
             </thead>
             <tbody>
@@ -138,33 +138,41 @@
 
         <h2>Gallerie d’images</h2>
 
-        <div class="gallerie">
-            <div class="description"></div>
+        <div id="gallerie" class="gallerie">
+            <div class="carte">
                 <img src="https://arfp.github.io/tp/web/html-css/img/airbus-a300.jpg" alt="airbus-a300">
                 <p>airbus-a300</p>
             </div>
-            <div class="description"></div>
+            <div class="carte">
                 <img src="https://arfp.github.io/tp/web/html-css/img/airbus-a320.jpg" alt="airbus-a320">
                 <p>airbus-a320</p>
             </div>
-
+            <div class="carte">
+                <img src="https://arfp.github.io/tp/web/html-css/img/airbus-a350.jpg" alt="airbus-a350">
+                <p>airbus-a350</p>
+            </div>
+            <div class="carte">
+                <img src="https://arfp.github.io/tp/web/html-css/img/airbus-a380.jpg" alt="airbus-a380">
+                <p>airbus-a380</p>
+            </div>
+            <div class="carte">
+                <img src="https://arfp.github.io/tp/web/html-css/img/boeing-717.jpg" alt="boeing-717">
+                <p>boeing-717</p>
+            </div>
+            <div class="carte">
+                <img src="https://arfp.github.io/tp/web/html-css/img/boeing-737.jpg" alt="boeing-737">
+                <p>boeing-737</p>
+            </div>
+            <div class="carte">
+                <img src="https://arfp.github.io/tp/web/html-css/img/boeing-747.jpg" alt="boeing-747">
+                <p>boeing-737</p>
+            </div>
+            <div class="carte">
+                <img src="https://arfp.github.io/tp/web/html-css/img/boeing-777.jpg" alt="boeing-777">
+                <p>boeing-777</p>
+            </div>
         </div>
-
-
-
-
-
-
     </main>
-
-
-
-
-
-
-
-
-
 
     <footer>
         <small>

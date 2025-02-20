@@ -33,12 +33,6 @@ table {
     border: 2px solid rgb(140 140 140);
     font-family: sans-serif;
 }
-  
-caption {
-    caption-side: bottom;
-    padding: 10px;
-    font-weight: bold;
-}
 
 th,
 td {
@@ -46,8 +40,23 @@ td {
   padding: 8px 10px
 }
 
-footer{
-    display: flex;
-    justify-content: center
+.gallerie img{
+    height: 150px;
+    width: 230px;
 }
+
+.gallerie{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 50%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around
+}
+
 
