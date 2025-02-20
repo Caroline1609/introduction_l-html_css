@@ -8,7 +8,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    color : #224422;
+    background-color : #224422;
 }
 
 
@@ -27,6 +27,18 @@ h1, h2, h3{
 
 a{
     color:  #CCCCFF;
+}
+
+ul a{
+    display: flex;
+    margin: 5px;
+
+    
+}
+
+header a:hover{
+    background-color: #1e8b1e;
+    cursor: pointer;
 }
 
 table {
