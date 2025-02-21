@@ -17,7 +17,7 @@ header{
   justify-content: center;
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 20% 20% 20%;
+  grid-template-columns:repeat(3, 20%);
   grid-gap: 20px;
 }
 
@@ -33,10 +33,37 @@ header{
 }
 
 .text{
+  padding: 13px;
   text-align: justify;
   background-color: #FFFFFF;
 }
 
 h3{
   color : #E64B3C
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  .body{
+    font-size: 20px;
+  }
+
+
+  .chaton{
+    grid-template-columns: repeat(2,50%);
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .body{
+    font-size: 15px;
+  }
+  
+  
+  .chaton{
+    grid-template-columns: 100%;
+  }
+
 }
