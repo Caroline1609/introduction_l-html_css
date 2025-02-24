@@ -45,13 +45,12 @@ header a:hover{
 }
 
 table {
-    border: 2px solid rgb(140 140 140);
-    font-family: sans-serif;
+    border: 3px solid #CCFFCC;
 }
 
 th,
 td {
-  border: 1px solid rgb(160 160 160);
+  border: 1px solid #CCFFCC;
   padding: 8px 10px
 }
 
@@ -73,4 +72,19 @@ footer {
     justify-content: space-around
 }
 
+@media only screen and (max-width: 768px) {
 
+    .body{
+      font-size: 15px;
+      width: 100%;
+    }
+
+    table{
+        overflow-wrap: anywhere;
+        font-size: 11px;
+    }
+
+        
+        
+  
+  }
