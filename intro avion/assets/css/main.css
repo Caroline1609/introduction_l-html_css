@@ -29,9 +29,16 @@ a{
     color:  #CCCCFF;
 }
 
+ul{
+    margin : 0;
+}
+
 ul a{
     display: flex;
-    margin: 5px; 
+    margin: 5px;
+    background-color: #224422;
+    width: 100%;
+    text-decoration: none;
 }
 
 main{
