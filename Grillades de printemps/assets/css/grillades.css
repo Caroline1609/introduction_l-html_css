@@ -39,8 +39,8 @@ nav {
     grid-row: 2 / 4;
 }
 
-article {
-    grid-column: 2;
+main {
+    grid-column: 2 / 4;
   grid-row: 3 / 3;
   border: dashed red
 }
