@@ -21,16 +21,33 @@ header, aside , nav, article, footer {
     border: solid black;
 }
 
-
-
 section {
     background-color: white;
 }
 
-header {
-    grid-column: 1 / 4;
-    grid-row: 1;
-    border: solid black
+
+header{
+    display: grid;
+  grid-auto-rows: minmax(50px, auto);
+  border: solid black;
+  align-items: start;
+  justify-items: end
+    
+}
+
+h1 {
+    grid-column: 1;
+  grid-row: 1;
+  background-color: lightblue;
+  border: solid ;
+
+}
+
+aside{
+    grid-column: 1 /4;
+    grid-row: 3 / 4;
+    padding: 10px;
+    gap: 10px;
 }
 
 nav {
@@ -41,8 +58,8 @@ nav {
 
 main {
     grid-column: 2 / 4;
-  grid-row: 3 / 3;
-  border: dashed red
+    grid-row: 3 / 3;
+
 }
 
 article {
@@ -59,14 +76,6 @@ article section {
     padding: 10px;
 }
 
-aside {
-    flex: 1;
-
-    padding: 10px;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-}
 
 aside section {
 
