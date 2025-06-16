@@ -19,9 +19,7 @@ header {
 
 h1{
     grid-area: h1;
-    background-color: #d1e0f3;
-    padding:1em;
-    font-size: 32px;
+    background-color: #BBCCFF;
     margin: 0;
     
 }
@@ -29,26 +27,23 @@ h1{
 
 aside{
     grid-area: aside;
-    background-color: #d1e0f3;
+    background-color: #BBCCFF;
     padding:1em;
     margin: 0;
-
-        font-size: 32px;
     
 }
 
 
 nav {
     grid-area: nav;
-    background-color: #b0c4de;
+    background-color: #BBCCFF;
     padding: 20px;
 }
 
-/* Article principal */
 main {
     grid-area: article;
     padding:10px;
-    background-color: #d1e0f3;
+    background-color: #BBCCFF;
 }
 
 .principal {
@@ -86,7 +81,7 @@ article section {
 
 footer {
     grid-area: footer;
-    background-color: #d1e0f3;
+    background-color: #BBCCFF;
     text-align: left;
     padding: 20px;
     
