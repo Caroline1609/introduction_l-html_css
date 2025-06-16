@@ -9,14 +9,162 @@
     height: 20px;
 }
 
-#c1 {
-  grid-area: 1 / 3 / span 1 / span 1 ;
+/* CoB = Contour du coeur */
+
+#coB1 {
+  grid-area: 1 / 3 / span 1 / span 1 ; /* premiere ligne */
 }
 
-#c2 {
+#coB2 {
   grid-area: 1 / 4 / span 1 / span 1 ;
 }
 
-#c3 {
+#coB3 {
   grid-area: 1 / 6 / span 1 / span 1 ;
 }
+
+#coB4 {
+  grid-area: 1 / 7 / span 1 / span 1 ; 
+}
+
+#coB5 {
+  grid-area: 2 / 2 / span 1 / span 1 ;/* deuxième ligne */
+}
+
+#coR1 {
+  grid-area: 2 / 3 / span 1 / span 1 ;
+}
+
+#coR2 {
+  grid-area: 2 / 4 / span 1 / span 1 ;
+}
+
+#coB6 {
+  grid-area: 2 / 5 / span 1 / span 1 ;
+}
+
+#coR3 {
+  grid-area: 2 / 6 / span 1 / span 1 ;
+}
+
+#coR4 {
+  grid-area: 2 / 7 / span 1 / span 1 ;
+}
+
+#coB7 {
+  grid-area: 2 / 8 / span 1 / span 1 ; 
+}
+
+
+
+
+
+
+
+
+#coB8 {
+  grid-area: 3 / 1/ span 1 / span 1 ; /* Troisième ligne */
+}
+
+#coR5 {
+  grid-area: 3 / 2 / span 1 / span 1 ;
+}
+
+#coW1 {
+  grid-area: 3 / 3 / span 1 / span 1 ;
+}
+
+#coR6 {
+  grid-area: 3 / 4 / span 1 / span 1 ;
+}
+
+#coR7 {
+  grid-area: 3 / 5 / span 1 / span 1 ;
+}
+
+#coR8 {
+  grid-area: 3 / 5 / span 1 / span 1 ;
+}
+
+#coR9 {
+  grid-area: 3 / 6 / span 1 / span 1 ;
+}
+
+#coR10 {
+  grid-area: 3 / 7 / span 1 / span 1 ;
+}
+
+#coR11 {
+  grid-area: 3 / 8 / span 1 / span 1 ;
+}
+
+#coB9 {
+  grid-area: 3 / 9 / span 1 / span 1 ;
+}
+
+#coB10 {
+  grid-area: 4 / 1 / span 1 / span 1 ; /* Quatrième ligne */
+}
+
+#coR12 {
+  grid-area: 4 / 2 / span 1 / span 1 ;
+}
+
+#coR13 {
+  grid-area: 4 / 3 / span 1 / span 1 ;
+}
+
+#coR14 {
+  grid-area: 4 / 4 / span 1 / span 1 ;
+}
+
+#coR15 {
+  grid-area: 4 / 5 / span 1 / span 1 ;
+}
+
+#coR16 {
+  grid-area: 4 /6 / span 1 / span 1 ;
+}
+
+#coR17 {
+  grid-area: 4 / 7 / span 1 / span 1 ;
+}
+
+#coR18 {
+  grid-area: 4 / 8 / span 1 / span 1 ;
+}
+
+#coB11 {
+  grid-area: 4 / 9 / span 1 / span 1 ;
+}
+
+#coB12 {
+  grid-area: 5 / 2 / span 1 / span 1 ; /* Cinquième ligne */
+}
+
+#coB13 {
+  grid-area: 5 / 8 / span 1 / span 1 ;
+}
+
+#coB14 {
+  grid-area: 6 / 3 / span 1 / span 1 ; /* Sixième ligne */
+}
+
+#coB15 {
+  grid-area: 6 / 7 / span 1 / span 1 ;
+}
+
+#coB16 {
+  grid-area: 7 / 4 / span 1 / span 1 ; /* Septième ligne */
+}
+
+#coB17 {
+  grid-area: 7 / 6 / span 1 / span 1 ; 
+}
+
+#coB18 {
+  grid-area: 8 / 5 / span 1 / span 1 ; /* Huitième ligne */
+}
+
+
+
