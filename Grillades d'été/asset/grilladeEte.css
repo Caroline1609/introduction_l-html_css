@@ -1,0 +1,64 @@
+body{
+    margin : 0;
+    color: rgb(255, 255, 255);
+}
+
+.principal {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+
+
+#s1 {
+  background-color: lime;
+  grid-area: 1 / 1 / span 1 / span 5 ;
+}
+
+#s2 {
+  background-color: rgb(241, 94, 25);
+  grid-area: 2 / 1 / span 4 / span 2 ;
+}
+
+#s3 {
+  background-color: rgb(68, 0, 255);
+  grid-area: 2 / 3 / span 0 / span 1;
+}
+
+#s4 {
+  background-color: rgb(32, 46, 1);
+  grid-area: 2 / 4 / span 1 / span 2;
+}
+
+#s5 {
+  background-color: rgb(9, 214, 129);
+  grid-area: 3 / 3 / span 1 / span 2;
+}
+
+#s6 {
+  background-color: rgb(229, 156, 156);
+  grid-area: 3 / 5 / span 1 / span 1;
+}
+
+#s7 {
+  background-color: rgb(229, 156, 156);
+  grid-area: 4 / 3 / span 1 / span 1;
+}
+
+#s8 {
+  background-color: rgb(3, 122, 39);
+  grid-area: 4 / 4 / span 1 / span 1;
+}
+
+#s9 {
+  background-color: rgb(144, 9, 255);
+  grid-area: 4 / 5 / span 1 / span 1;
+}
+
+#s10 {
+  background-color: rgb(167, 6, 6);
+  grid-area: 5 / 3 / span 1 / span 3;
+}
