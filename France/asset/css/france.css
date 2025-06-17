@@ -28,9 +28,11 @@ h1, h2{
 
 table, th, td {
   border:1px solid blue;
+  
 }
 
 th {
    background: grey;
    text-align: center;
+
 }

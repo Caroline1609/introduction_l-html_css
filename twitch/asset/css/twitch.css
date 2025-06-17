@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    display : flex;
+    justify-content: center;
+}
+
+h1{
+    color: #008CBA;
+}
+
+header{
+    width: 50%;
+
+
+}
+
+.bouton1, .bouton2, .bouton3 {
+    width: 15em;
+    height: 3em;
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+
+
+}
+
+.bouton1{
+    background-color: #008CBA ;
+}
+
+.bouton2{
+    background-color: #4CAF50 ;
+}
+
+.bouton3{
+    background-color: #555555 ;
+}
