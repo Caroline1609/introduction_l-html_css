@@ -1,0 +1,27 @@
+body {
+
+    margin: 0;
+    text-align: center;
+}
+
+.flag {
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.yellow {
+    grid-area: 1 / 1 / span 3 / span 3;
+    background-color: #FCD116;
+}
+
+.blue {
+    grid-area: 4 / 1 / span 2 / span 3;
+    background-color: #003893;
+}
+
+.red {
+    grid-area: 6 / 1 / span 2 / span 3;
+    background-color: #CE1126;
+}
+
