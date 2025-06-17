@@ -1,19 +1,22 @@
 body{
-    margin: 0;
     font-family: monospace;
     display : flex;
     justify-content: center;
+    flex-direction: column;
+    margin : auto;
+    width: 70%;
+    align-items: center;
 }
 
 h1{
     color: #008CBA;
 }
 
-header, main{
-    width: 50%;
 
-
+.bouton{
+    margin: 2em;
 }
+
 
 .bouton1, .bouton2, .bouton3 {
     width: 15em;
@@ -35,4 +38,38 @@ header, main{
 
 .bouton3{
     background-color: #555555 ;
+}
+
+table{
+    margin : 2em;
+
+}
+
+
+table, th, td {
+  border:2px solid black;
+  width: auto;
+  height: auto;
+  
+}
+
+table mark{
+    background-color: #008CBA ;
+    color: white;
+}
+
+.carte mark{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.stat{
+    display: flex;
+    flex-direction: row;
+}
+
+.carte{
+    width: 13em;
+    border: solid 1px black;
+
 }
