@@ -11,12 +11,8 @@ header {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 0;
     height: 200px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 36px;
 }
 
 .container {
@@ -25,17 +21,21 @@ header {
 
 }
 
+h1{
+    margin: 0;
+    color : #CCCCCC
+}
+
 .menu{
     border: solid 1px black;
     background-color: #524f4f;
 }
 
-nav{
-    border : solid 1px black;
-}
+
 
 nav, aside {
     width: 240px;
+    height: 100%;
     background-color: #333;
 }
 
@@ -63,48 +63,67 @@ nav ul li a {
 
 main {
     flex: 1;
-    padding: 20px;
+
 }
 
 .grid{
-    
-    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     border : solid 1px black;
+    padding: 5em
 }
 
 article {
     background-color: #000;
-    padding: 20px;
     border: 1px solid #444;
+    width: 100%;
+    height: 7em;
+
 }
 
-.book {
-    background-color: #555;
-    color: #fff;
-    padding: 15px;
-    margin-bottom: 20px;
-    text-align: center;
-    border: 1px solid #777;
+.bienvenue{
+    margin: 0;
+    background-color: #524f4f;
 }
+
+aside{
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .book img {
     max-width: 100%;
     height: auto;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    border : solid 1px black;
+.text{
+    text-align: left;
 }
 
-/* Version mobile */
+.bouton {
+    width: 15em;
+    height: 3em;
+    color: white;
+
+    border: transparent;
+    background-color: #085E8F;
+
+
+}
+
+.text p {
+    font-size: 13px;
+}
+
+.publicite h3{
+    color: #5cb1e2ad;
+}
+
+/* Version mobile
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
@@ -117,4 +136,4 @@ footer {
     main {
         grid-template-columns: 1fr;
     }
-}
+} */
