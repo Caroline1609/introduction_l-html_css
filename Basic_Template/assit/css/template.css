@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #333;
-    color: white;
 }
 
 header {
@@ -23,28 +22,39 @@ header {
 
 h1{
     margin: 0;
-    color : #CCCCCC
+    color : #c8cbd0;
 }
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
 
 .menu{
     background-color: #303030 ;
-    height: 2em;
+    height: 3em;
 }
 
 h3{
-    margin : 0;
+    margin : 14px;
+    color: #d5d1c3;
 
 }
 
 nav, aside {
     width: 240px;
     height: 100%;
-    background-color: #1e1d1d;
+    background-color: #4890a3 ;
+    
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+
 }
 
 nav, aside{
@@ -59,14 +69,10 @@ li{
     padding: 10px;
 }
 
-
-nav ul li {
-    padding: 8px 0;
-}
-
 nav ul li a {
     color: #00b3fe;
     text-decoration: none;
+    font-size: 19px;
 }
 
 main {
@@ -82,15 +88,18 @@ main {
 }
 
 article {
-    background-color: #000;
+    background-color: #212121;
     width: 100%;
     height: 7em;
+    color: #aeb4bc;
+    font-size: 19px;
 
 }
 
 .bienvenue{
     margin: 0;
-    background-color: #302e2e;
+    background-color: #212121;
+    border-bottom: solid 1px #3a3939;
 
 }
 
@@ -112,69 +121,96 @@ aside{
 }
 
 .bouton {
-    width: 15em;
-    height: 3em;
-    color: white;
-
-    border: transparent;
+    text-decoration: none;
+    padding: 11px;
+    width: 11em;
+    font-size: 1em;
+    color: #FFFFFF;
     background-color: #085E8F;
-
-
+    border: none;
 }
 
+
 .text p {
-    font-size: 13px;
+    font-size: 16px;
+    color : #aeafb2
 }
 
 .publicite h3{
-    color: #5cb1e2ad;
+    color: #46afc7;
 }
 
-
-@media (prefers-color-scheme: light) {
-            
-
-
-            body, main{
-                color: white;
-
-            }
-
-            main, nav, aside{
-                background-color: #BEBEBE;
-            }
-
-            menu{
-                background-color: #B1B1B1 ;
-            }
-
-            .menu, .bienvenue, .text p {
-                color: black;
-            }
-
-            article{
-                background-color: #8a8686;
-            }
-
-
-
-
-
-
-
-        }
-
-/* Version mobile
 @media (max-width: 768px) {
+    
     .container {
         flex-direction: column;
     }
 
     nav, aside, main {
         width: 100%;
+         height: auto;
+    }
+
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
     }
 
     main {
         grid-template-columns: 1fr;
     }
-} */
+
+    .text p {
+    text-align: justify;
+}
+
+    
+}
+
+
+@media (prefers-color-scheme: light) {
+            
+
+    body, main{
+        color: #cccccc;
+
+    }
+    
+
+    main, nav, aside{
+        background-color: #cccccc;
+    }
+
+    menu{
+        background-color: #B1B1B1 ;
+    }
+
+    .menu, .bienvenue, .text p {
+        background-color: #bebebe;
+    }
+
+    article{
+        background-color: #bebebe;
+        color :#212121
+    }
+
+    .text p{
+        color: #212121;
+    }
+
+    h3{
+        color: #2b190d;
+    }
+
+    li {
+        background-color: #b1b1b1;
+
+    }
+
+    nav ul li a {
+        color: #537692;
+    }
+
+    .publicite{
+        color: #235275;
+    }
+}
