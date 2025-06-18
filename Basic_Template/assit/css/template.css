@@ -27,21 +27,29 @@ h1{
 }
 
 .menu{
-    border: solid 1px black;
-    background-color: #524f4f;
+    background-color: #303030 ;
+    height: 2em;
 }
 
+h3{
+    margin : 0;
 
+}
 
 nav, aside {
     width: 240px;
     height: 100%;
-    background-color: #333;
+    background-color: #1e1d1d;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+}
+
+nav, aside{
+    height: 50em;
+    background-color: #212121;
 }
 
 li{
@@ -70,13 +78,11 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    border : solid 1px black;
     padding: 5em
 }
 
 article {
     background-color: #000;
-    border: 1px solid #444;
     width: 100%;
     height: 7em;
 
@@ -84,7 +90,8 @@ article {
 
 .bienvenue{
     margin: 0;
-    background-color: #524f4f;
+    background-color: #302e2e;
+
 }
 
 aside{
@@ -122,6 +129,40 @@ aside{
 .publicite h3{
     color: #5cb1e2ad;
 }
+
+
+@media (prefers-color-scheme: light) {
+            
+
+
+            body, main{
+                color: white;
+
+            }
+
+            main, nav, aside{
+                background-color: #BEBEBE;
+            }
+
+            menu{
+                background-color: #B1B1B1 ;
+            }
+
+            .menu, .bienvenue, .text p {
+                color: black;
+            }
+
+            article{
+                background-color: #8a8686;
+            }
+
+
+
+
+
+
+
+        }
 
 /* Version mobile
 @media (max-width: 768px) {
