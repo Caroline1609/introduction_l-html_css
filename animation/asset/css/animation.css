@@ -1,0 +1,102 @@
+.maClasse {
+    color: red;
+}
+
+.leo2 {
+    height: 250px;
+    width: 250px;
+    border: solid black 2px;
+    background-size: cover;
+    background-image: url('/animation/asset/img/eternal_sunshine_210.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.uneSimpleDiv {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.692);
+    opacity: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: height .5s, width .5s, opacity .5s;
+
+
+}
+
+
+.leo img {
+    height: 250px;
+    width: 250px;
+    border: solid black 2px;
+    transition: height 2s ease-in, width 2s ease-in;
+}
+
+
+
+#leo:hover {
+    height: 500px;
+    width: 500px;
+}
+
+.thinker {
+    height: 300px;
+    width: 300px;
+    background-image: url('/animation/asset/img/eternal_sunshine_210.jpg');
+    background-size: cover;
+    transition: transform 2s;
+    transform: rotateZ(180deg);
+}
+
+.thinker:hover {
+    transform: rotateZ(0deg);
+}
+
+.reeves {
+    height: 350px;
+    width: 350px;
+    background-image: url('/animation/asset/img/eternal_sunshine_210.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: opacity 2s;
+}
+
+.reeves:hover {
+    opacity: 0%;
+}
+
+.kim {
+    height: 250px;
+    width: 250px;
+    transition: transform 1s ease-in-out, opacity 1s;
+}
+
+.kim:hover {
+    transform: translate(80px, 80px) rotate(98deg);
+    opacity: 0%;
+}
+
+}
+
+
+
+.monH3 {
+    color: white;
+}
+
+.uneSimpleDiv:hover{
+
+    cursor: pointer;
+
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    opacity: 90%;
+
+}
