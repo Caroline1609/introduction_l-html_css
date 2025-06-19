@@ -26,19 +26,22 @@ h1, h2, h3{
 }
 
 a{
-    color:  #CCCCFF;
+    color:  #ACC0F6;
 }
 
 ul{
     margin : 0;
+    padding: 0;
 }
 
 ul a{
     display: flex;
     margin: 5px;
-    background-color: #224422;
+    background-color: #315031;
     width: 100%;
     text-decoration: none;
+    border: solid 1px #224422;
+
 }
 
 main{
@@ -47,12 +50,13 @@ main{
 }
 
 header a:hover{
-    background-color: #1e8b1e;
+    background-color: #446944;
     cursor: pointer;
 }
 
 table {
     border: 3px solid #CCFFCC;
+    overflow-x: auto;
 }
 
 th,
@@ -79,6 +83,20 @@ footer {
     justify-content: space-around
 }
 
+@media (min-width: 767px) and (max-width: 900px) {
+
+    body{
+        width: 100%;
+    }
+  table {
+    font-size: 0.9rem;
+  }
+
+  td, th {
+    padding: 0.5rem;
+  }
+}
+
 @media only screen and (max-width: 768px) {
 
     .body{
@@ -86,13 +104,39 @@ footer {
       width: 100%;
     }
 
-    table th,
+    /* table th,
     td{
+
         overflow-wrap: anywhere;
         font-size: 11px;
-    }
+    } */
 
-        
-        
-  
+    table, thead, tbody, th, td, tr {
+    display: block;
   }
+
+  tr {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    width: 45%;
+    padding-right: 1rem;
+    white-space: nowrap;
+    content: attr(data-label);
+    font-weight: bold;
+  }
+}
+
+
