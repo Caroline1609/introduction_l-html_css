@@ -6,8 +6,8 @@ body{
 }
 
 div {
-    width: 150px;
-    height: 63px;
+    width: auto;
+    height: auto;
     background-color: red;
     position: relative;
     animation-name: example;
@@ -44,7 +44,7 @@ div {
     }
 }
 
-.bruno {
+.nom {
             font-size: 50px;
             font-weight: bold;
             position: relative;
