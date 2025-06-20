@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Karantina_Light;
-  src: url(/Agoge/asset/font/Karantina/Karantina-Light.ttf);
+  font-family: Karantina_Regular;
+  src: url(/Agoge/asset/font/Karantina/Karantina-Regular.ttf);
 }
 
 body {
@@ -12,11 +12,12 @@ body {
 header {
     background-image: url("/Agoge/asset/img/duo.png");
     background-repeat: no-repeat;
-    height: 1440px;;
+    height: 1440px;
     color: white;
     padding: 10px 0;
     text-align: center;
     background-size: contain;
+    
 }
 
 h1{
@@ -50,21 +51,25 @@ nav a {
 
 .titre_contenaire{
     margin: auto;
-    width: 17%;
+    width: 30%;
     display: flex;
-    align-items: center;
+
+    align-items: flex-end;
 }
 
 h2{
     height: 20px;
     font-size: 101px;
-    font-family: Karantina_Light;
+    font-family: Karantina_regular;
 
 }
 
 h1{
     font-size: 290px;
-    font-family: Karantina_Light;
+    font-family: Karantina_regular;
+    margin: 0;
+    color : #26C1DC;
+    -webkit-text-stroke: 0.5px #ffffff;
 }
 
 
