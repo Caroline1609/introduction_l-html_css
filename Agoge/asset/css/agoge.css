@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-image: url("/Agoge/asset/img/duo.png");
+    background-repeat: no-repeat;
+    height: 1440px;;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+nav li {
+    margin: 1em;
+    list-style: none;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
