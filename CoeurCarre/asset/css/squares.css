@@ -1,13 +1,18 @@
-.coeur-container {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    justify-items: stretch
+body{
+  width : 60%;
+
 }
 
-.square {
-    width: 20px;
-    height: 20px;
-}
+.coeur-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: stretch;
+    width : 60%;
+    margin: auto;
+    
+    }
+
+
 
 /* CoB = Contour du coeur */
 

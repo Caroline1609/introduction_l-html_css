@@ -84,7 +84,7 @@ footer {
     justify-content: space-around
 }
 
-@media (min-width: 767px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1064px) {
 
     body{
         width: 100%;
@@ -96,24 +96,18 @@ footer {
   td, th {
     padding: 0.5rem;
   }
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 
-    .body{
-      font-size: 15px;
-      width: 100%;
-    }
+  .body{
+    font-size: 15px;
+    width: 100%;
+  }
 
-    /* table th,
-    td{
-
-        overflow-wrap: anywhere;
-        font-size: 11px;
-    } */
-
-    table, thead, tbody, th, td, tr {
-    display: block;
+  table, thead, tbody, th, td, tr {
+  display: block;
   }
 
   tr {
@@ -137,6 +131,10 @@ footer {
     white-space: nowrap;
     content: attr(data-label);
     font-weight: bold;
+  }
+
+  .gallerie {
+    justify-content: center
   }
 }
 
