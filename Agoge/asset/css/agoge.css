@@ -48,7 +48,6 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .titre_contenaire{
@@ -75,5 +74,7 @@ h1{
     -webkit-text-stroke: 0.5px #ffffff;
 }
 
-
+.fleche img{
+    
+}
 
