@@ -51,6 +51,10 @@ nav, aside {
     
 }
 
+.h3{
+    height: 3em;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -100,6 +104,7 @@ article {
     margin: 0;
     background-color: #212121;
     border-bottom: solid 1px #3a3939;
+    height: 3em;
 
 }
 
