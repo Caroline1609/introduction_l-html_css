@@ -1,8 +1,21 @@
+:root{
+    --color1 : #111111;
+    --color2 : #085E8F;
+    --color3 : #09BCE0;
+    --color4 : #CCCCCC;
+    --color5 : #085E8F44;
+    --color6 : #09BCE044;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
 }
 
 header {
@@ -20,7 +33,17 @@ header {
 
 }
 
-h1{
+
+
+
+
+
+
+
+
+
+
+/* h1{
     margin: 0;
     color : #c8cbd0;
 }
@@ -218,4 +241,4 @@ aside{
     .publicite{
         color: #235275;
     }
-}
+} */
