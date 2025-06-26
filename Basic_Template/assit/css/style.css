@@ -27,11 +27,19 @@ header {
     align-items: center;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
+.grid{
+    display: grid;
+    grid-template-columns: 240px auto 240px;
+    grid-template-areas: 
+    "nav main aside";
 
 }
+
+.art{
+    display: flex;
+}
+
+
 
 
 
