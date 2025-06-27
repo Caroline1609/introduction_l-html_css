@@ -1,21 +1,22 @@
-:root{
-    --color1 : #111111;
-    --color2 : #085E8F;
-    --color3 : #09BCE0;
-    --color4 : #CCCCCC;
-    --color5 : #085E8F44;
-    --color6 : #09BCE044;
-
+:root {
+    --color1: #111111;
+    --color2: #085E8F;
+    --color3: #09BCE0;
+    --color4: #CCCCCC;
+    --color5: #085E8F44;
+    --color6 : #303030;
 }
 
-*{
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: var(--color1);
+    color: white;
 }
 
 header {
@@ -24,39 +25,95 @@ header {
     color: white;
     text-align: center;
     height: 200px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: 240px auto 240px;
-    grid-template-areas: 
-    "nav main aside";
+    grid-template-columns: 200px auto 250px;
+}
 
+nav {
+    background-color: var(--color1);
+}
+
+.navbar{
+    height: 3em;
+    padding: 20px;
+    background-color: var(--color5);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 10px;
+    background-color: var(--color6);
+    padding: 10px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    color: var(--color3);
+    padding : 10px;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.title {
+    margin-bottom: 20px;
 }
 
 .art{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 80px;;
+
+}
+
+article {
+    background-color: var(--color5);
+    width: 22em;
+    height: 7em;
+    color: #aeb4bc;
+    font-size: 19px;
+    padding: 20px;
+    border: solid 1px red;
+
+}
+
+aside {
+    background-color: var(--color5);
+    padding: 20px;
+    text-align: center;
+}
+
+.bouton {
+    background-color: var(--color3);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* h1{
-    margin: 0;
-    color : #c8cbd0;
-}
-
-nav{
+/* nav{
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -174,7 +231,7 @@ aside{
 
 .publicite h3{
     color: #46afc7;
-}
+} */
 
 @media (max-width: 768px) {
     
