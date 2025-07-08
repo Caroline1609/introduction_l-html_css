@@ -9,9 +9,7 @@
     --color3 : #2E3436;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
@@ -25,6 +23,8 @@ header {
     color: white;
     text-align: center;
     background-size: cover;
+    background-position: center;
+
 }
 
 nav {
