@@ -11,13 +11,13 @@ body {
     margin-bottom: 20px;
 }
 
-.filter-buttons {
+.filtre {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.filter-buttons button {
+.filtre button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -27,13 +27,13 @@ body {
     cursor: pointer;
 }
 
-.plants {
+.plantes {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.plant-card {
+.carte_plante {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -44,25 +44,25 @@ body {
     text-align: center;
 }
 
-.plant-card img {
+.carte_plante img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
-.price-button {
+.prix_plante {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.price {
+.prix {
     font-weight: bold;
     color: #4CAF50;
 }
 
-.add-to-cart {
+.panier {
     background-color: #4CAF50;
     border: none;
     color: white;
