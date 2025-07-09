@@ -3,7 +3,6 @@
     --couleur-principale: #2c3e50;
     --couleur-secondaire: #e74c3c;
     --couleur-texte: #666;
-    --couleur-fond-conteneur: white;
     --couleur-ombre: rgba(0, 0, 0, 0.1);
     --couleur-bordure: #ddd;
     --couleur-fond-temps: #f9f9f9;
@@ -12,20 +11,22 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 20px;
     background-color: var(--couleur-fond);
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
 }
+
 
 .conteneur-recette {
     max-width: 800px;
     margin: 0 auto;
-    background-color: var(--couleur-fond-conteneur);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px var(--couleur-ombre);
-    border: 1px solid var(--couleur-bordure);
+
 }
 
 .titre-recette, .titre-ingredients, .titre-instructions {
@@ -33,29 +34,30 @@ body {
 }
 
 .titre-recette {
-    text-align: center;
     border-bottom: 2px solid var(--couleur-secondaire);
     padding-bottom: 10px;
 }
 
 .texte-recette p {
     color: var(--couleur-texte);
+    font-size: 1.1rem;
 }
 
 .conteneur-texte-images {
-
+    display: flex;
 
 }
 
-
-
-.conteneur-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+.bloc{
+    display: flex;
 }
 
-.image-recette {
+
+.image-recette .p1 {
+    width: 300px
+}
+
+.image-recette{
     text-align: center;
 }
 
@@ -73,21 +75,25 @@ body {
 
 .conteneur-temps {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    text-align: left;
     background-color: var(--couleur-fond-temps);
     padding: 10px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-top: 31px;
     border-top: 1px solid var(--couleur-bordure);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.05);
+    background-color: white;
 }
 
-.temps-item {
+.conteneur-temps ul {
     text-align: center;
     padding: 10px;
+    border-left: solid var(--couleur-secondaire);
+    list-style: none;
 }
 
 .liste-ingredients, .liste-instructions {
-    list-style-type: none;
     padding: 0;
 }
 
@@ -95,6 +101,15 @@ body {
     padding: 8px 0;
     border-bottom: 1px solid var(--couleur-bordure);
 }
+
+.note {
+    background-color: var(--couleur-fond-note);
+    padding: 17px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border-left: 4px solid #ff9800;
+}
+
 
 .liste-instructions {
     counter-reset: my-counter;
@@ -108,7 +123,9 @@ body {
 }
 
 .liste-instructions li::before {
-    content: counter(my-counter);
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    position: absolute;
     background-color: var(--couleur-secondaire);
     color: white;
     font-weight: bold;
@@ -117,14 +134,5 @@ body {
     border-radius: 50%;
 }
 
-.note {
-    background-color: var(--couleur-fond-note);
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
 
-.note p {
-    margin: 0;
-    color: var(--couleur-texte-note);
-}
+
